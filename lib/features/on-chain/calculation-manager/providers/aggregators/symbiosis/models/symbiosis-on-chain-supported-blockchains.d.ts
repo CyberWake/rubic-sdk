@@ -1,0 +1,2 @@
+export declare const symbiosisOnChainSupportedBlockchains: readonly ["ETH", "BSC", "POLYGON", "AVALANCHE", "BOBA", "BOBA_BSC", "TELOS", "ZK_SYNC", "ARBITRUM", "OPTIMISM", "POLYGON_ZKEVM", "LINEA", "BASE", "MANTLE", "TRON", "SCROLL", "METIS", "GOERLI", "BSCT", "FUJI", "MUMBAI", "SCROLL_SEPOLIA", "ZETACHAIN", "MANTA_PACIFIC"];
+export type SymbiosisOnChainSupportedBlockchain = (typeof symbiosisOnChainSupportedBlockchains)[number];

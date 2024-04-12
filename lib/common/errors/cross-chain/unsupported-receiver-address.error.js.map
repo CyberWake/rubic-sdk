@@ -1,0 +1,1 @@
+{"version":3,"file":"unsupported-receiver-address.error.js","sourceRoot":"","sources":["../../../../src/common/errors/cross-chain/unsupported-receiver-address.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE,MAAa,+BAAgC,SAAQ,+BAAa;IAC9D;QACI,KAAK,CAAC,oDAAoD,CAAC,CAAC;QAC5D,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,+BAA+B,CAAC,SAAS,CAAC,CAAC;IAC3E,CAAC;CACJ;AALD,0EAKC"}

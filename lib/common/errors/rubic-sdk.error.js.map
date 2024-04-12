@@ -1,0 +1,1 @@
+{"version":3,"file":"rubic-sdk.error.js","sourceRoot":"","sources":["../../../src/common/errors/rubic-sdk.error.ts"],"names":[],"mappings":";;;AAAA;;GAEG;AACH,MAAa,aAAc,SAAQ,KAAK;IACpC,YAAY,OAAgB,EAAE,YAA2B;QACrD,KAAK,CAAC,OAAO,EAAE,YAAY,CAAC,CAAC;QAC7B,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,aAAa,CAAC,SAAS,CAAC,CAAC;IACzD,CAAC;CACJ;AALD,sCAKC"}

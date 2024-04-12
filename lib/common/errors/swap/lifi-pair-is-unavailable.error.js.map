@@ -1,0 +1,1 @@
+{"version":3,"file":"lifi-pair-is-unavailable.error.js","sourceRoot":"","sources":["../../../../src/common/errors/swap/lifi-pair-is-unavailable.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;GAEG;AACH,MAAa,0BAA2B,SAAQ,+BAAa;IACzD;QACI,KAAK,CAAC,4EAA4E,CAAC,CAAC;QACpF,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,0BAA0B,CAAC,SAAS,CAAC,CAAC;IACtE,CAAC;CACJ;AALD,gEAKC"}

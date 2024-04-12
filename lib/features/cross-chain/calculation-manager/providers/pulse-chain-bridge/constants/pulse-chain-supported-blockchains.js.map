@@ -1,0 +1,1 @@
+{"version":3,"file":"pulse-chain-supported-blockchains.js","sourceRoot":"","sources":["../../../../../../../src/features/cross-chain/calculation-manager/providers/pulse-chain-bridge/constants/pulse-chain-supported-blockchains.ts"],"names":[],"mappings":";;;AAAA,gFAA6E;AAEhE,QAAA,8BAA8B,GAAG;IAC1C,iCAAe,CAAC,QAAQ;IACxB,iCAAe,CAAC,UAAU;CACpB,CAAC"}

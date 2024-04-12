@@ -1,0 +1,21 @@
+export declare const UNIQ_LIFI_BRIDGE_TYPES: {
+    readonly ACROSS: "across";
+    readonly AMAROK: "connext";
+    readonly ARBITRUM: "arbitrum";
+    readonly AVALANCHE: "avalanche";
+    readonly CBRIDGE: "cbridge";
+    readonly CONNEXT: "connext";
+    readonly CELERIM: "celerim";
+    readonly HOP: "hop";
+    readonly HYPHEN: "hyphen";
+    readonly MULTICHAIN: "multichain";
+    readonly STARGATE: "stargate";
+    readonly ALLBRIDGE: "allbridge";
+    readonly POLYGON_BRIDGE: "polygon";
+    readonly OMNI_BRIDGE: "omni";
+    readonly GNOSIS_BRIDGE: "gnosis";
+    readonly CONNEXT_AMAROK: "amarok";
+    readonly CIRCLE_CELER_BRIDGE: "celercircle";
+    readonly LI_FUEL: "lifuel";
+    readonly WORMHOLE: "wormhole";
+};

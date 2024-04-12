@@ -1,0 +1,1 @@
+{"version":3,"file":"low-gas.error.js","sourceRoot":"","sources":["../../../../src/common/errors/blockchain/low-gas.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;GAEG;AACH,MAAa,WAAY,SAAQ,+BAAa;IAC1C;QACI,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,WAAW,CAAC,SAAS,CAAC,CAAC;IACvD,CAAC;CACJ;AALD,kCAKC"}

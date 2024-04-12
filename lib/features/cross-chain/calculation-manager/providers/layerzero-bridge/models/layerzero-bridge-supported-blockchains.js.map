@@ -1,0 +1,1 @@
+{"version":3,"file":"layerzero-bridge-supported-blockchains.js","sourceRoot":"","sources":["../../../../../../../src/features/cross-chain/calculation-manager/providers/layerzero-bridge/models/layerzero-bridge-supported-blockchains.ts"],"names":[],"mappings":";;;AAAA,gFAA6E;AAEhE,QAAA,mCAAmC,GAAG;IAC/C,iCAAe,CAAC,OAAO;IACvB,iCAAe,CAAC,mBAAmB;IACnC,iCAAe,CAAC,QAAQ;CAClB,CAAC"}

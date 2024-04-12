@@ -1,0 +1,1 @@
+{"version":3,"file":"max-gas-price-overflow.error.js","sourceRoot":"","sources":["../../../../src/common/errors/cross-chain/max-gas-price-overflow.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;;GAGG;AACH,MAAa,wBAAyB,SAAQ,+BAAa;IACvD;QACI,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,wBAAwB,CAAC,SAAS,CAAC,CAAC;IACpE,CAAC;CACJ;AALD,4DAKC"}

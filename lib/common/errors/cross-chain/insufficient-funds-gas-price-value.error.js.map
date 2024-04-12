@@ -1,0 +1,1 @@
+{"version":3,"file":"insufficient-funds-gas-price-value.error.js","sourceRoot":"","sources":["../../../../src/common/errors/cross-chain/insufficient-funds-gas-price-value.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;GAEG;AACH,MAAa,mCAAoC,SAAQ,+BAAa;IAClE;QACI,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,mCAAmC,CAAC,SAAS,CAAC,CAAC;IAC/E,CAAC;CACJ;AALD,kFAKC"}

@@ -1,0 +1,11 @@
+import { CurveArbitrumProvider } from "../../providers/dexes/arbitrum/curve-arbitrum/curve-arbitrum-provider";
+import { CurveAvalancheProvider } from "../../providers/dexes/avalanche/curve-avalanche/curve-avalanche-provider";
+import { CurveCeloProvider } from "../../providers/dexes/celo/curve-celo/curve-celo-provider";
+import { CurveEthereumProvider } from "../../providers/dexes/ethereum/curve-ethereum/curve-ethereum-provider";
+import { CurveFantomProvider } from "../../providers/dexes/fantom/curve-fantom/curve-fantom-provider";
+import { CurveGnosisProvider } from "../../providers/dexes/gnosis/curve-gnosis/curve-gnosis-provider";
+import { CurveKavaProvider } from "../../providers/dexes/kava/curve-kava/curve-kava-provider";
+import { CurveMoonbeamProvider } from "../../providers/dexes/moonbeam/curve-moonbeam/curve-moonbeam-provider";
+import { CurveOptimismProvider } from "../../providers/dexes/optimism/curve-optimism/curve-optimism-provider";
+import { CurvePolygonProvider } from "../../providers/dexes/polygon/curve-polygon/curve-polygon-provider";
+export declare const CurveTradeProviders: readonly [typeof CurveArbitrumProvider, typeof CurveAvalancheProvider, typeof CurveCeloProvider, typeof CurveEthereumProvider, typeof CurveFantomProvider, typeof CurveKavaProvider, typeof CurveGnosisProvider, typeof CurveMoonbeamProvider, typeof CurveOptimismProvider, typeof CurvePolygonProvider];

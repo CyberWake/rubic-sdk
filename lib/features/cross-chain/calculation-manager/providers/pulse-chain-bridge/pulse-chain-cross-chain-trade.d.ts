@@ -1,0 +1,55 @@
+import BigNumber from 'bignumber.js';
+import { PriceTokenAmount } from "../../../../../common/tokens";
+import { EvmBlockchainName } from "../../../../../core/blockchain/models/blockchain-name";
+import { ContractParams } from "../../../../common/models/contract-params";
+import { SwapTransactionOptions } from "../../../../common/models/swap-transaction-options";
+import { EvmCrossChainTrade } from "../common/emv-cross-chain-trade/evm-cross-chain-trade";
+import { GasData } from "../common/emv-cross-chain-trade/models/gas-data";
+import { FeeInfo } from "../common/models/fee-info";
+import { GetContractParamsOptions } from "../common/models/get-contract-params-options";
+import { OnChainSubtype } from "../common/models/on-chain-subtype";
+import { RubicStep } from "../common/models/rubicStep";
+import { TradeInfo } from "../common/models/trade-info";
+import { EvmOnChainTrade } from "../../../../on-chain/calculation-manager/providers/common/on-chain-trade/evm-on-chain-trade/evm-on-chain-trade";
+export declare class PulseChainCrossChainTrade extends EvmCrossChainTrade {
+    /** @internal */
+    static getGasData(from: PriceTokenAmount<EvmBlockchainName>, toToken: PriceTokenAmount<EvmBlockchainName>, onChainTrade: EvmOnChainTrade | null, feeInfo: FeeInfo, toTokenAmountMin: BigNumber, providerAddress: string, receiverAddress: string, routerAddress: string, tokenRegistered: boolean): Promise<GasData | null>;
+    readonly type: "pulsechain_bridge";
+    readonly isAggregator = false;
+    readonly bridgeType: "pulsechain_bridge";
+    readonly from: PriceTokenAmount<EvmBlockchainName>;
+    readonly to: PriceTokenAmount<EvmBlockchainName>;
+    readonly toTokenAmountMin: BigNumber;
+    readonly priceImpact: number | null;
+    readonly gasData: GasData | null;
+    private readonly routerAddress;
+    private get fromBlockchain();
+    protected get fromContractAddress(): string;
+    readonly feeInfo: FeeInfo;
+    private readonly slippage;
+    readonly onChainSubtype: OnChainSubtype;
+    readonly onChainTrade: EvmOnChainTrade | null;
+    protected get methodName(): string;
+    private readonly isTokenRegistered;
+    private get isErc677();
+    constructor(crossChainTrade: {
+        from: PriceTokenAmount<EvmBlockchainName>;
+        to: PriceTokenAmount<EvmBlockchainName>;
+        gasData: GasData | null;
+        slippage: number;
+        feeInfo: FeeInfo;
+        toTokenAmountMin: BigNumber;
+        onChainTrade: EvmOnChainTrade | null;
+        priceImpact: number | null;
+        routerAddress: string;
+        tokenRegistered: boolean;
+    }, providerAddress: string, routePath: RubicStep[]);
+    needApprove(): Promise<boolean>;
+    protected swapDirect(options?: SwapTransactionOptions): Promise<string | never>;
+    getContractParams(options: GetContractParamsOptions): Promise<ContractParams>;
+    getTradeAmountRatio(fromUsd: BigNumber): BigNumber;
+    getTradeInfo(): TradeInfo;
+    private getTransactionRequest;
+    private getTokenAddress;
+    private getProviderDataForErc677;
+}

@@ -1,0 +1,12 @@
+import { OneinchArbitrumProvider } from "../../providers/dexes/arbitrum/oneinch-arbitrum/oneinch-arbitrum-provider";
+import { OneinchAuroraProvider } from "../../providers/dexes/aurora/oneinch-arbitrum/oneinch-aurora-provider";
+import { OneinchAvalancheProvider } from "../../providers/dexes/avalanche/oneinch-avalanche/oneinch-avalanche-provider";
+import { OneinchBaseProvider } from "../../providers/dexes/base/oneinch-base/oneinch-base-provider";
+import { OneinchBscProvider } from "../../providers/dexes/bsc/oneinch-bsc/oneinch-bsc-provider";
+import { OneinchEthereumProvider } from "../../providers/dexes/ethereum/oneinch-ethereum/oneinch-ethereum-provider";
+import { OneinchFantomProvider } from "../../providers/dexes/fantom/oneinch-fantom/oneinch-fantom-provider";
+import { OneinchKlaythProvider } from "../../providers/dexes/klaytn/oneinch-klayth/oneinch-klayth-provider";
+import { OneinchOptimismProvider } from "../../providers/dexes/optimism/oneinch-optimism/oneinch-optimism-provider";
+import { OneinchPolygonProvider } from "../../providers/dexes/polygon/oneinch-polygon/oneinch-polygon-provider";
+import { OneinchZksyncProvider } from "../../providers/dexes/zksync/oneinch-zksync/oneinch-zksync-provider";
+export declare const OneinchTradeProviders: readonly [typeof OneinchEthereumProvider, typeof OneinchBscProvider, typeof OneinchPolygonProvider, typeof OneinchAvalancheProvider, typeof OneinchFantomProvider, typeof OneinchArbitrumProvider, typeof OneinchOptimismProvider, typeof OneinchZksyncProvider, typeof OneinchAuroraProvider, typeof OneinchBaseProvider, typeof OneinchKlaythProvider];

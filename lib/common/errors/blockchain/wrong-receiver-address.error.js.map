@@ -1,0 +1,1 @@
+{"version":3,"file":"wrong-receiver-address.error.js","sourceRoot":"","sources":["../../../../src/common/errors/blockchain/wrong-receiver-address.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;GAEG;AACH,MAAa,yBAA0B,SAAQ,+BAAa;IACxD;QACI,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,yBAAyB,CAAC,SAAS,CAAC,CAAC;IACrE,CAAC;CACJ;AALD,8DAKC"}

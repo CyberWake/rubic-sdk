@@ -1,0 +1,1 @@
+{"version":3,"file":"too-low-amount.error.js","sourceRoot":"","sources":["../../../../src/common/errors/cross-chain/too-low-amount.error.ts"],"names":[],"mappings":";;;AAAA,uEAAkE;AAElE;;GAEG;AACH,MAAa,iBAAkB,SAAQ,+BAAa;IAChD;QACI,KAAK,CACD,uGAAuG,CAC1G,CAAC;QACF,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,iBAAiB,CAAC,SAAS,CAAC,CAAC;IAC7D,CAAC;CACJ;AAPD,8CAOC"}

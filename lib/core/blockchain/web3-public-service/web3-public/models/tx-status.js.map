@@ -1,0 +1,1 @@
+{"version":3,"file":"tx-status.js","sourceRoot":"","sources":["../../../../../../src/core/blockchain/web3-public-service/web3-public/models/tx-status.ts"],"names":[],"mappings":";;;AAAa,QAAA,SAAS,GAAG;IACrB,OAAO,EAAE,SAAS;IAClB,OAAO,EAAE,SAAS;IAClB,IAAI,EAAE,MAAM;IACZ,QAAQ,EAAE,UAAU;IACpB,MAAM,EAAE,QAAQ;IAChB,OAAO,EAAE,SAAS;IAClB,cAAc,EAAE,gBAAgB;CAC1B,CAAC"}

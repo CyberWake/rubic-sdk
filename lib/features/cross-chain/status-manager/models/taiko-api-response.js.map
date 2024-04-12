@@ -1,0 +1,1 @@
+{"version":3,"file":"taiko-api-response.js","sourceRoot":"","sources":["../../../../../src/features/cross-chain/status-manager/models/taiko-api-response.ts"],"names":[],"mappings":";;;AAAa,QAAA,oBAAoB,GAAG;IAChC,QAAQ,EAAE,CAAC;IACX,UAAU,EAAE,CAAC;CACP,CAAC;AAIE,QAAA,gBAAgB,GAAG;IAC5B,GAAG,EAAE,CAAC;IACN,SAAS,EAAE,CAAC;IACZ,IAAI,EAAE,CAAC;IACP,MAAM,EAAE,CAAC;CACZ,CAAC"}

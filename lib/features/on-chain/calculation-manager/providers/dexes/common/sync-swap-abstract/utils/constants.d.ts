@@ -1,0 +1,14 @@
+import { BigNumber } from 'ethers';
+export declare const MAX_LOOP_LIMIT = 256;
+export declare const MAX_FEE: BigNumber;
+export declare const STABLE_POOL_A: BigNumber;
+export declare const ZERO: BigNumber;
+export declare const ONE: BigNumber;
+export declare const TWO: BigNumber;
+export declare const THREE: BigNumber;
+export declare const FOUR: BigNumber;
+export declare const granularity = 10;
+export declare const UINT128_MAX: BigNumber;
+export declare const UINT256_MAX: BigNumber;
+export declare const MAX_XP: BigNumber;
+export declare const ETHER: BigNumber;
